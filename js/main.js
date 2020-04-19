@@ -16,11 +16,11 @@ $(function() {
 
   $(".nav-list .list > li:nth-of-type(1)").on("mouseenter", function () {
     $(".cat-slide-overlay").fadeIn(1);
-    $('html, body').css("overflow-y", "hidden");
+    // $('html, body').css("overflow-y", "hidden");
   });
   $(".nav-list .list > li:nth-of-type(1)").on("mouseleave", function () {
     $(".cat-slide-overlay").fadeOut(1);
-    $('html, body').css("overflow-y", "visible");
+    // $('html, body').css("overflow-y", "visible");
   });
 
   $(".nav-bar .icons .search-icon .lnr-magnifier").on("click", function() {
@@ -176,11 +176,13 @@ $(function() {
       $(".fixed-menu").fadeIn();
       $(".fixed-menu .menu").addClass("show");
       $(".fixed-menu .main-list").addClass("show");
+      $('html, body').css("overflow-y", "hidden");
     });
     $(".fixed-menu, .fixed-menu .menu-header .close").on("click", function () {
       $(".fixed-menu").fadeOut();
       $(".fixed-menu .menu").removeClass("show");
       $(".fixed-menu .main-list").removeClass("show");
+      $('html, body').css("overflow-y", "visible");
     });
     $(".fixed-menu .menu").on("click", function(e) {
       e.stopPropagation();
