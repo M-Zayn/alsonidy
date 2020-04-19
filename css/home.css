@@ -97,6 +97,7 @@ a:hover, a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 230px;
 }
 
 @-webkit-keyframes loader {
