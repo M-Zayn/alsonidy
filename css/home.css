@@ -335,8 +335,6 @@ a:hover, a:focus {
 
 .upper-bar .upper-social .lang-switcher span {
   padding: 1.4px 0 0 0;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
 }
 
 .upper-bar .upper-social .lang-switcher img {
