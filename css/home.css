@@ -1751,7 +1751,7 @@ a:hover, a:focus {
     font-size: 14px;
     top: -9px;
     left: -9px;
-    padding: 3.5px 0 0 0;
+    padding: 4px 0 0 0;
   }
   .nav-bar .icons .menu-icon,
   .nav-bar .icons .search-icon {
@@ -2016,7 +2016,7 @@ a:hover, a:focus {
     margin: 0 auto;
   }
   .sp-offers .card .time {
-    padding: 5px 0 0 0;
+    padding: 8px 0 0 0;
   }
   .sp-offers .owl-carousel {
     position: relative;
@@ -2240,11 +2240,7 @@ a:hover, a:focus {
     padding: 20px 5px;
   }
   .header .header-back .img-title p {
-    font-size: 15px;
-  }
-  .header .header-back .img-title a {
-    width: 120px;
-    height: 30px;
+    font-size: 14px;
   }
   .sp-offers .sp-offers-header {
     font-size: 20px;
@@ -2294,14 +2290,6 @@ a:hover, a:focus {
   }
   .header .header-back .img-title {
     padding: 15px 5px;
-  }
-  .header .header-back .img-title p {
-    font-size: 12px;
-  }
-  .header .header-back .img-title a {
-    width: 100px;
-    height: 25px;
-    font-size: 10px;
   }
 }
 
@@ -2476,4 +2464,3 @@ html[dir="ltr"] .footer .subscribe button {
   }
 }
 
-/*# sourceMappingURL=home.css.map */
